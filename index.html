@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jquery 2</title>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+
+        <h2>EMPLOYEES</h2>
+
+        <div class="spacer"></div>
+
+        <div class="input_form">
+            <p class="input_title">Name</p>
+            <input type="text" name="name" id="name" autocomplete="no" placeholder="Enter your name">
+            <p class="name-message message"></p>
+    
+            <p class="input_title">Basic salary</p>
+            <input type="text" name="basic-salary" id="basic-salary" placeholder="Enter your basic salary">
+            <p class="basic-message message"></p>
+    
+            <p class="input_title">Reward</p>
+            <input type="text" name="reward" id="reward" placeholder="Enter your reward">
+            <p class="reward-message message"></p>
+    
+            <p class="input_title">Fine</p>
+            <input type="text" name="fine" id="fine" placeholder="Enter the fine you take">
+            <p class="fine-message message"></p>
+        </div>
+
+        <div class="action">
+            <button id="add" class="add">Add</button>
+            <button id="clear" class="clear">Clear</button>
+        </div>
+
+        <div class="anounce">
+            <h4 class="anounce_heading">Employees has salary > 1000$:</h4>
+            <div class="anouce_content"></div>
+        </div>
+
+        <table id="result_table">
+            <!-- <tr>
+                <th>Name</th>
+                <th>Basic salary</th>
+                <th>Reward</th>
+                <th>Fine</th>
+                <th>Salary</th>
+            </tr>
+
+            <div id="data-wrapper">
+                <tr>
+                    <td>ok</td>
+                    <td>ok</td>
+                    <td>ok</td>
+                    <td>ok</td>
+                    <td>ok</td>
+                </tr>                
+            </div> -->
+        </table>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

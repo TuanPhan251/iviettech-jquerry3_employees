@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    background-image: url("/iviettech-jquerry3 employees/img/background.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(61, 87, 22);
+    margin-left: auto;
+}
+
+input:focus,
+input:hover {
+    box-shadow: 0px 0px 10px rgb(253, 164, 182);
+}
+
+table {
+    color: #1c1c1c;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px 0;
+    text-align: center;
+    width: 20%;
+}
+
+table th{
+    background-color: #ff7675;
+    font-weight: 500;
+}
+
+table tr {
+    width: 100%;
+    background-color: #fab1a0;
+}
+
+.main {
+    align-self: center;
+    padding: 24px 32px;
+    min-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px rgb(53, 53, 53);
+    opacity: 0.99;
+}
+
+.main h2 {
+    color: #222222;
+    text-align: center;
+}
+
+.spacer{
+    display: block;
+    height: 40px;
+}
+
+.input_form {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.input_title {
+    color: #1c1c1c;
+    margin: 12px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.message {
+    margin-top: 8px;
+    margin-left: 4px;
+    color: #d63031;
+    font-size: 14px;
+}
+
+.add,
+.clear {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 16px;
+    width: 140px;
+    padding: 12px 24px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(253, 164, 182);
+    cursor: pointer;
+}
+
+.clear {
+    background-color: #fab1a0;
+}
+
+.add:hover,
+.clear:hover {
+    opacity: 0.8;
+}
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anounce {
+    margin: 16px 0;
+    color: #1c1c1c;
+    display: none;
+}
+
